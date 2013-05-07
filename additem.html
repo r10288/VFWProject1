@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Add A Hero</title>
+</head>
+
+<body>
+<h1><b><u>Hero Select</b></u></h1>
+
+<form action="" method="post">
+	<fieldset>
+    	<legend> Add Hero </legend>
+        <ul>
+        
+        <li> <label for="name">Hero Name: </label> <input type="text" id="name"</li>
+        <li> <label for="alias">Nickname: </label> <input type="text" id="alias"</li>
+        
+        <li>
+        	<label for="herotype">Hero Type: </label>
+            <select id="herotype">
+            	<option value="barb">Barbarian</option>
+                <option value="mage">Mage</option>
+                <option value="witchdr">Witch Doctor</option>
+                <option value="assassin">Assassin</option>
+                <option value="druid">Druid</option>
+                <option value="bard">Bard</option>
+                <option value="necro">Necromancer</option>
+                <option value="monk">Monk</option>
+                
+            </select>
+            </li>
+            
+            <li>Height:
+            	<input type="range" name="inches" min="48" max="96" id="height"
+            </li>
+            <li>Weight:
+            	<input type="range" name="pounds" min="100" max="400" id="weight"
+            </li>
+            <li>Sex:
+         <ul>
+             <li><input type="checkbox" id="male" /><label for="male">Male</label>
+            <li><input type="checkbox" id="female" /><label for="female">Female</label>
+         </ul>
+            </li>
+            <li><input type="checkbox" id="leader" /><label for="leader">Party Leader?</label></li>
+            <label>Hero Notes:</label>
+            <textarea> </textarea>
+            
+            <br><br>
+            <input type="hidden" id="id_entry" value="0" />
+           <button type="button">Add Hero</button>
+           <button type="reset">Clear Data</button>
+          </fieldset>
+         </form>
+           
+            
+                
+
+</body>
+</html>
